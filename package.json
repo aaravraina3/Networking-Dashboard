@@ -1,0 +1,28 @@
+{
+  "name": "generate-networking-dashboard-sync",
+  "version": "1.0.0",
+  "description": "Networking dashboard synchronization tool for Generate club - syncs onboarding form data to Google Sheets dashboard",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "node src/index.js",
+    "start": "node src/index.js",
+    "sync": "node src/sync.js",
+    "preview": "node src/preview.js",
+    "backup": "node src/backup.js",
+    "install-deps": "npm install"
+  },
+  "keywords": ["networking", "dashboard", "sync", "google-sheets", "generate", "onboarding"],
+  "author": "Generate Club",
+  "license": "MIT",
+  "dependencies": {
+    "googleapis": "^128.0.0",
+    "dotenv": "^16.3.1",
+    "commander": "^11.1.0",
+    "chalk": "^5.3.0",
+    "inquirer": "^9.2.12"
+  },
+  "devDependencies": {
+    "@types/node": "^20.8.0"
+  }
+}
